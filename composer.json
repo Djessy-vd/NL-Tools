@@ -1,0 +1,18 @@
+{
+    "name": "djessy/nl-tools",
+    "description": "A PHP Composer package with useful utilities for Dutch developers.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Djessy\\NlTools\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Djessy van Drunen"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {}
+}

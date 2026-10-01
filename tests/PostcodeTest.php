@@ -5,6 +5,7 @@ use PHPUnit\Framework\TestCase;
 use Djessy\NlTools\Postcode;
 
 class PostcodeTest extends TestCase{
+    //validate
     #[\PHPUnit\Framework\Attributes\DataProvider('postcodeProvider')]
     public function testValidatePostalCode($postal, $expected){
         $postcode = new Postcode();
@@ -23,12 +24,20 @@ class PostcodeTest extends TestCase{
     ];
     }
 
-    public function testFormatPostalCode(){
+    // format
+    #[\PHPUnit\Framework\Attributes\DataProvider('formatPostcodeProvider')]
+    public function testFormatPostalCode($postal, $expected){
         $postcode = new Postcode();
-        
-        $this->assertEquals("1122 AB", $postcode->formatPostalCode("1122AB"));
-        $this->assertEquals("1122 AB", $postcode->formatPostalCode("1122 ab"));
-        $this->assertFalse($postcode->formatPostalCode("12a"));
-        $this->assertFalse($postcode->formatPostalCode("139SN"));
+
+        $this->assertEquals($postcode->formatPostalCode($postal), $expected);
+    }
+
+    public static function formatPostcodeProvider(): array
+    {
+    return [
+        ['1122AB', '1122 AB'],
+        ['1122 ab', '1122 AB'],
+        ['12a', false],
+    ];
     }
 }

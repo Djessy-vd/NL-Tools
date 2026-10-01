@@ -12,4 +12,17 @@ class Postcode {
             return false;
         }
     }
+
+    public function formatPostalCode($postal){
+        $info = $this->validatePostalCode($postal);
+
+        if ($info) {
+            $removedspace = str_replace(" ", "", $postal);
+            $capitalized = strtoupper($removedspace);
+            $formatted = substr($capitalized, 0, 4 ) . " " . substr($capitalized, 4, 2);
+            return $formatted;
+        } else {
+            return false;
+        }
+    }
 }

@@ -12,6 +12,7 @@ class PostcodeTest extends TestCase{
         $this->assertTrue($postcode->validatePostalCode("1122 AB"));
         $this->assertFalse($postcode->validatePostalCode("12a"));
         $this->assertFalse($postcode->validatePostalCode("139SN"));
+        $this->assertFalse($postcode->validatePostalCode("0123AB"));
     }
 
     public function testFormatPostalCode(){

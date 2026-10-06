@@ -5,6 +5,7 @@
 [![Total Downloads](https://poser.pugx.org/djessy/nl-tools/downloads)](https://packagist.org/packages/djessy/nl-tools)
 [![License](https://poser.pugx.org/djessy/nl-tools/license)](https://packagist.org/packages/djessy/nl-tools)
 [![PHP Version Require](https://poser.pugx.org/djessy/nl-tools/require/php)](https://packagist.org/packages/djessy/nl-tools)
+[![codecov](https://codecov.io/gh/Djessy-vd/NL-Tools/graph/badge.svg)](https://codecov.io/gh/Djessy-vd/NL-Tools)
 
 NL-Tools is a PHP Composer package containing reusable utilities for common Dutch data formats and conventions.
 

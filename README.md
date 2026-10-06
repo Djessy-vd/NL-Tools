@@ -3,6 +3,7 @@
 [![PHP](https://img.shields.io/badge/PHP-8.5%2B-777BB4?logo=php&logoColor=white)](https://www.php.net/)
 [![PHPUnit](https://img.shields.io/badge/PHPUnit-13.3%2B-3C9CD7?logo=php&logoColor=white)](https://phpunit.de/)
 [![License](https://img.shields.io/badge/License-MIT-green)](LICENSE)
+[![Tests](https://github.com/Djessy-vd/NL-Tools/actions/workflows/tests.yml/badge.svg)](https://github.com/Djessy-vd/NL-Tools/actions/workflows/tests.yml)
 
 NL-Tools is a PHP Composer package containing reusable utilities for common Dutch data formats and conventions.
 

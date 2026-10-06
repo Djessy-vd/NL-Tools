@@ -2,6 +2,12 @@
 namespace Djessy\NlTools;
 
 class Postcode {
+    /**
+     * Validates a Dutch postal code.
+     *
+     * @param string $postal The postal code to validate.
+     * @return bool True when the postal code is valid.
+     */
     public function validatePostalCode($postal) {
         //regex minimum 4 digits and 2 letters, with optional space in between
         $regex = "/^[1-9][0-9]{3}\s?[a-zA-Z]{2}$/";
@@ -12,7 +18,12 @@ class Postcode {
             return false;
         }
     }
-
+    /**
+     * Format a Dutch postal code.
+     *
+     * @param string $postal The postal code to format.
+     * @return bool True when the postal code is valid.
+     */
     public function formatPostalCode($postal){
         $info = $this->validatePostalCode($postal);
 

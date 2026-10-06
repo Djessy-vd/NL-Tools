@@ -4,6 +4,12 @@ namespace Djessy\NlTools;
 
 class Feestdagen
 {
+    /**
+     * to check if a date is a holiday in the Netherlands, you can use this function to get all the holidays in a given year.
+     *
+     * @param string $jaar The year to get the holidays for.
+     * @return bool True when the date is a holiday in the Netherlands.
+     */
     public function getFeestdagen($jaar)
     {
         $pasen = new \DateTime($jaar . '-03-21');

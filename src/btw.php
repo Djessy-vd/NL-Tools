@@ -1,5 +1,4 @@
 <?php
-
 namespace Djessy\NlTools;
 
 class Btw

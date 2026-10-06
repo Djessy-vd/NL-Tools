@@ -1,5 +1,7 @@
 <?php
-
+//----------------------------------------
+//this tests alle the posible dutch licence plates and formats, and checks if the output is correct
+//----------------------------------------
 require __DIR__ . '/../vendor/autoload.php';
 
 use PHPUnit\Framework\TestCase;

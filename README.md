@@ -1,6 +1,6 @@
 # NL-Tools
 
-[![PHPUnit](.github/img/NL-Toolsbanner.svg)](https://github.com/Djessy-vd/NL-Tools)
+[![PHPUnit](.github/img/NL-Tools-banner.svg)](https://github.com/Djessy-vd/NL-Tools)
 
 
 [![CI](https://github.com/Djessy-vd/NL-Tools/actions/workflows/tests.yml/badge.svg)](https://github.com/Djessy-vd/NL-Tools/actions/workflows/tests.yml)

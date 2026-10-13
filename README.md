@@ -177,6 +177,8 @@ NL-Tools is open-source software licensed under the [MIT License](LICENSE).
 
 - GitHub: [@djessy-vd](https://github.com/djessy-vd)
 - Website: [djessy.eu](https://djessy.eu)
+
+**Kyan Leijten**
 - ideas for the banner [Kyan leijten]()
 
 ---

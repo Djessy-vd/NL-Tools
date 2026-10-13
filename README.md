@@ -173,7 +173,7 @@ NL-Tools is open-source software licensed under the [MIT License](LICENSE).
 
 ## Author
 
-**Djessy van Drunen**
+**Djessy van Drunen** **OWNER**
 
 - GitHub: [@djessy-vd](https://github.com/djessy-vd)
 - Website: [djessy.eu](https://djessy.eu)
